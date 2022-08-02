@@ -12,6 +12,8 @@ $u = new Usuario();
 $logar = $_POST['logar'];
 $senha = $_POST['senha'];
 
+$u-> login($logar, $senha);
+
 }else
 
 header('location: login.php');
