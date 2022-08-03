@@ -1,4 +1,7 @@
 <?php
+session_start();
+
+
 $dns= "mysql:host=localhost;dbname=hp";
 $username= "root";
 $password="";

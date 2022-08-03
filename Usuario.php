@@ -1,4 +1,5 @@
 <?php
+session_start();
 
 class Usuario{
 
@@ -14,19 +15,15 @@ public function login($logar, $senha){
     
     if($sql->rowCount() > 0){
 
-
     $retorno = $sql->fetch();
-    echo $retorno['usuario'];
+    $_SESSION['user'] = $retorno['usuario'];
 
-    echo $retorno['senha'];
+    return true;
 
-    }
-    else
-        echo "sai dai seu imundo sem conhecimento de nada";
     
-
+    }else
+        return false;
+    
 }
-
-
 
 }
