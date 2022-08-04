@@ -1,3 +1,7 @@
+<?php
+include_once 'Autentica.php';
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +12,7 @@
 </head>
 <body>
     Olá seu boi;
-
-    <a href= logout.php>Sair</a>
+    <br>
+    <a href= Logout.php>Sair</a>
 </body>
 </html>

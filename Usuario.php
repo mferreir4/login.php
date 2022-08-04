@@ -18,11 +18,10 @@ public function login($logar, $senha){
     $retorno = $sql->fetch();
     $_SESSION['user'] = $retorno['usuario'];
 
-    return true;
 
     
-    }else
-        return false;
+    
+    }
     
 }
 

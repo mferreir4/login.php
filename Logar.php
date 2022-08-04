@@ -12,13 +12,11 @@ $u = new Usuario();
 $logar = $_POST['logar'];
 $senha = $_POST['senha'];
 
-if($u-> login($logar, $senha) == true);
-    if(isset($_SESSION['user'])){
+if($u-> login($logar, $senha));
+
 
     header('location: index.php');
     
-    }else 
-    header('location: Login.php');
 
 }else
 
