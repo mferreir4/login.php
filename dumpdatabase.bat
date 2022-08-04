@@ -1,0 +1,1 @@
+c:\xampp\mysql\bin\mysqldump.exe hp -uroot -p > c:\xampp\htdocs\login.php\Banco3.sql

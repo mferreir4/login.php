@@ -1,5 +1,5 @@
 <?php
-include_once 'Autentica.php';
+include_once './adm/Autentica.php';
 
 ?>
 <!DOCTYPE html>
@@ -11,7 +11,6 @@ include_once 'Autentica.php';
     <title>Document</title>
 </head>
 <body>
-    Olá seu boi;
     <br>
     <a href= Logout.php>Sair</a>
 </body>

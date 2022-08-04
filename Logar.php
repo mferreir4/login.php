@@ -12,7 +12,7 @@ $u = new Usuario();
 $logar = $_POST['logar'];
 $senha = $_POST['senha'];
 
-if($u-> login($logar, $senha));
+if($u->login($logar, $senha));
 
 
     header('location: index.php');
